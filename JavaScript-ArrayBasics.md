@@ -1,5 +1,12 @@
 # JavaScript Arrays Basics
 
+## Add/Remove Items
+
+- arr.push(...items) - adds items to the end
+- arr.pop() - removes items end
+- arr.shift() - removes items form beginning
+- arr.unshift(...items) - adds items to beginning
+
 ### Push - Adding items to the end of arrays
 
 ```js

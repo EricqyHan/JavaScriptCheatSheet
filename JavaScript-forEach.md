@@ -11,12 +11,6 @@ arr.forEach(function (item, index, array) {
 ```
 
 ```js
-arr.forEach(function (item, index, array) {
-  // ... do something with item
-});
-```
-
-```js
 // Create an array of numbers. Loop the array and add three to each numbeer and replace the old number
 let numbers = [42, 88, 9, 11, 18, 22, 43];
 numbers.forEach((item, i) => {
@@ -25,20 +19,6 @@ numbers.forEach((item, i) => {
 ```
 
 ![forEach Example](Pictures/forEach1.png)
-
-```JavaScript
-//Create a function that takes in an array of numbers.
-//Return a new array containing every even number from the original array(do not use map or filter)
-let evenNumbArray = (a) => {
-  let even = [];
-  a.forEach((n) => {
-    if (n % 2 === 0) {
-      even.push(n);
-    }
-  });
-  return even;
-};
-```
 
 ```JavaScript
 //Create a function that takes in an array of numbers.

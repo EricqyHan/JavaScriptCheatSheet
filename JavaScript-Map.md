@@ -11,3 +11,10 @@ let result = arr.map(function(item, index, array) {
   // returns the new value instead of item
 });
 ```
+
+Given an array of integers, return a new array with each value doubled.
+
+```JavaScript
+const maps = (arr) => arr.map((x) => x * 2);
+console.log(maps([2, 4, 6]));
+```

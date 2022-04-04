@@ -1,4 +1,4 @@
-# JavaScript Arrays Basics
+# Add or Remove Elements in JavaScript
 
 ## Add/Remove Items
 
@@ -55,3 +55,30 @@ let unoReverse = (str) => str.split("").reverse("").join("");
 console.log(unoReverse("currahee"));
 console.log(unoReverse("racecar"))
 ```
+
+### Splice - at index pos deletes deleteCount elements and insert items
+
+```JavaScript
+splice(pos, deleteCount, ...items)
+```
+
+```JavaScript
+let arr = ["I", "will", "go", "home", "now", "and", "be", "coming", "back"];
+arr.splice(1, 2); // from index 1, remove 4 elements
+console.log(arr);
+```
+
+![Array Splice](Pictures/ArraySplice.png)
+
+### Slice - creates a new array, copies elements from index start till end (not inclusive into it)
+
+```JavaScript
+let arr = ["I", "will", "go", "home", "now", "and", "be", "coming", "back"];
+console.log(arr.slice(2, 5)); /// "go, "home", "now" - (copy from 2 to 5)
+
+let arr2 = ["t", "e", "s", "t"];
+console.log(arr2.slice(1, 3)); /// "e" and "s" - (copy from 1 to 3)
+```
+
+Array Slice and Splice Difference
+![Array Slice](Pictures/ArraySliceSplice.png)

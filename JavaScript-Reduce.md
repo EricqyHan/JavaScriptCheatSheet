@@ -1,4 +1,4 @@
-# JavScript Reduce
+# JavaScript Reduce
 
 When we need to iterate over an array - we can use forEach, for or for..of.
 
@@ -18,3 +18,12 @@ let value = arr.reduce(function(accumulator, item, index, array) {
 - item - is the current array item
 - index - is its position
 - array - is the array
+
+```JavaScript
+//Find the average of all the numbers from question three
+let numberAverage = numbers.reduce((acc, i) => acc + i)/3;
+console.log(numberAverage);
+
+```
+
+![Arr Add Element to end of Array](Pictures/ReverseString.png)
